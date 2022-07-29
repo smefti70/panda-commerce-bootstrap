@@ -1,0 +1,60 @@
+/*------------------------/
+   Styles for nav section
+/-----------------------*/
+
+header nav {
+    background-color: #7430FA;
+}
+
+.nav-title-section ul li a,
+.home-link {
+    color: white !important;
+}
+
+/*------------------------------/
+   Common Styles for h1,h2 & h3
+/------------------------------*/
+
+h1,
+h3,
+h4 {
+    color: #FF136F;
+}
+
+/*--------------------------/
+   Styles for Image Slider
+/-------------------------*/
+
+.carousel-inner div {
+    background-color: #FCEAE8;
+}
+
+/*-------------------------/
+   Styles for Image Slider
+/------------------------*/
+
+.categories-section img {
+    width: 100px;
+}
+
+/*------------------------------/
+   Styles for Subscribe Section
+/------------------------------*/
+
+#subscribe {
+    background-color: #FCEAE8;
+    height: 300px;
+}
+
+#subscribe p {
+    color: #808080;
+}
+
+/*-------------------------------/
+   Styles for Section and Footer
+/------------------------------*/
+
+section,
+footer {
+    margin-top: 100px;
+}

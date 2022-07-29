@@ -9,13 +9,16 @@
     <!-- CSS Needed By Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <!-- Header Section Starts -->
     <header class="container">
         <!-- Navbar Section Starts -->
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg  fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="Panda Commerce Logo">
@@ -25,10 +28,10 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse nav-title-section" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active home-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#shoes">Shoes</a>
@@ -46,10 +49,10 @@
         <!-- Navbar Section Ends -->
 
         <!-- Slider Section Starts -->
-        <section style="margin-top: 100px;">
+        <section class="slider-section">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active border rounded p-5" style="background-color: #FCEAE8;">
+                    <div class="carousel-item active border rounded p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -57,8 +60,8 @@
                                     <p>This is the best tv in the world for people who just want to waste time in front
                                         of tv.
                                     </p>
-                                    <h1 style="color: #FF136F;">$1200</h1>
-                                    <div class="btn rounded text-white" style="background-color: #FF136F">Buy Now</div>
+                                    <h1>$1200</h1>
+                                    <div class="btn rounded text-white" style="background-color: #FF136F;">Buy Now</div>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -66,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item border rounded p-5" style="background-color: #FCEAE8;">
+                    <div class="carousel-item border rounded p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -75,7 +78,7 @@
                                         This is the best headphone in the world for people who just want to waste time
                                         in front of funky world.
                                     </p>
-                                    <h1 style="color: #FF136F;">$420</h1>
+                                    <h1>$420</h1>
                                     <div class="btn rounded text-white" style="background-color: #FF136F;">Buy Now</div>
                                 </div>
                             </div>
@@ -85,7 +88,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item border rounded p-5" style="background-color: #FCEAE8;">
+                    <div class="carousel-item border rounded p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -93,9 +96,8 @@
                                     <p>This is the best x-box in the world for people who just want to waste time in
                                         front of fake sports.
                                     </p>
-                                    <h1 style="color: #FF136F;">$600</h1>
-                                    <div class="btn rounded text-white" style="background-color: #FF136F;">Buy Now
-                                    </div>
+                                    <h1>$600</h1>
+                                    <div class="btn rounded text-white" style="background-color: #FF136F;">Buy Now</div>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -126,11 +128,11 @@
     <!-- Main Section Starts -->
     <main>
         <!-- Categories Section Starts -->
-        <section style="margin-top: 100px;">
+        <section class="categories-section">
             <div class="container text-center">
 
                 <!-- Single Category -->
-                <div class="row g-2">
+                <div class="row g-4">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="p-3 border rounded-3 d-flex justify-content-around align-items-center"
                             style="background-color: #FFA500;">
@@ -160,8 +162,8 @@
         <!-- Categories Section Ends -->
 
         <!-- Shoes Section Starts -->
-        <section style="margin-top: 100px;margin-bottom: 100px;" id="shoes" class="container">
-            <h1 class="text-center mb-4" style="color:#FF136F">Shoes</h1>
+        <section id="shoes" class="container">
+            <h1 class="text-center mb-4">Shoes</h1>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <!-- Single Shoe -->
@@ -170,14 +172,15 @@
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="Supply 350">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                additional
                                 content.
                             </p>
                         </div>
 
                         <!-- Price and Buy Now Section -->
                         <div class="m-3">
-                            <h4 style="color: #FF136F;">$120</h4>
+                            <h4>$120</h4>
                             <div class="btn text-white" style="background-color: #FF136F;">Buy Now</div>
                         </div>
                     </div>
@@ -189,13 +192,14 @@
                         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="Nike 360">
                         <div class="card-body">
                             <h5 class="card-title">Nike 360</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                additional
                                 content.</p>
                         </div>
 
                         <!-- Price and Buy Now Section -->
                         <div class="m-3">
-                            <h4 style="color: #FF136F;">$320</h4>
+                            <h4>$320</h4>
                             <div class="btn text-white" style="background-color: #FF136F;">Buy Now</div>
                         </div>
                     </div>
@@ -207,14 +211,15 @@
                         <img src="images/shoes/shoe-3.png" class="card-img-top" alt="Red Airmax">
                         <div class="card-body">
                             <h5 class="card-title">Red Airmax</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                additional
                                 content.
                             </p>
                         </div>
 
                         <!-- Price and Buy Now Section -->
                         <div class="m-3">
-                            <h4 style="color: #FF136F;">$350</h4>
+                            <h4>$350</h4>
                             <div class="btn text-white" style="background-color: #FF136F;">Buy Now</div>
                         </div>
                     </div>
@@ -224,8 +229,8 @@
         <!-- Shoes Section Ends -->
 
         <!-- Backpack Section Starts -->
-        <section style="margin-top: 100px;margin-bottom: 100px;" id="bags" class="container">
-            <h1 class="text-center mb-4" style="color:#FF136F">Backpacks</h1>
+        <section id="bags" class="container">
+            <h1 class="text-center mb-4">Backpacks</h1>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <!-- Single Bag -->
@@ -234,8 +239,9 @@
                         <img src="images/bags/bag-1.png" class="card-img-top" alt="Red Bag">
                         <div class="card-body">
                             <h5 class="card-title">Red Bag</h5>
-                            <h3 style="color: #FF136F;">$149</h3>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            <h3>$149</h3>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                additional
                                 content.
                             </p>
                         </div>
@@ -253,8 +259,9 @@
                         <img src="images/bags/bag-2.png" class="card-img-top" alt="Blue Bag">
                         <div class="card-body">
                             <h5 class="card-title">Blue Bag</h5>
-                            <h3 style="color: #FF136F;">$159</h3>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            <h3>$159</h3>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                additional
                                 content.</p>
                         </div>
 
@@ -271,8 +278,9 @@
                         <img src="images/bags/bag-3.png" class="card-img-top" alt="Black Bag">
                         <div class="card-body">
                             <h5 class="card-title">Black Bag</h5>
-                            <h3 style="color: #FF136F;">$169</h3>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            <h3>$169</h3>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                additional
                                 content.
                             </p>
                         </div>
@@ -288,11 +296,10 @@
         <!-- Backpack Section Ends -->
 
         <!-- Subscribe Section Starts -->
-        <section style="background-color: #FCEAE8;height: 300px; margin-bottom: 100px;" id="subscribe"
-            class="container rounded-3 d-flex justify-content-center align-items-center">
+        <section id="subscribe" class="container rounded-3 d-flex justify-content-center align-items-center">
             <div>
                 <h2>LET'S STAY IN TOUCH</h2>
-                <p style="color: #808080;">Get updates on sales, specials and more</p>
+                <p>Get updates on sales, specials and more</p>
                 <form>
                     <div class="mb-2">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
